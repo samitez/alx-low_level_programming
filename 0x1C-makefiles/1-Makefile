@@ -1,0 +1,5 @@
+CC = gcc
+SRC = main.c ALX.c
+
+all:
+	$(CC) $(SRC) -o ALX
